@@ -1,0 +1,49 @@
+.item-list{
+    display:block;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.item-name, .item-amount, .item-button{
+    float: left;
+    margin-bottom: 10px;
+}
+
+.item-name{
+    width: 20%;
+    font-size: 21px;
+}
+
+.item-amount{
+    width: 5%;
+    font-size: 21px;
+}
+
+.item-button button{
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.item-button button:hover{
+    background-color: darkred;
+    border: 1px solid darkred;
+    border-radius: 15px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.row{
+    width: 100%;
+}
+header{
+    text-align: center;
+    padding:10px;
+    background: silver;
+}
+.col-md-6{
+    display:block;
+    float: left;
+    width: 50%;
+}
